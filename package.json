@@ -1,0 +1,23 @@
+{
+  "name": "angular-gulp-webpack-oclazyload",
+  "version": "1.0.0",
+  "description": "a angular spa application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JlineZen/angular-gulp-webpack-oclazyload.git"
+  },
+  "keywords": [
+    "webpack",
+    "angular"
+  ],
+  "author": "bjiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JlineZen/angular-gulp-webpack-oclazyload/issues"
+  },
+  "homepage": "https://github.com/JlineZen/angular-gulp-webpack-oclazyload#readme"
+}
