@@ -1,4 +1,4 @@
-var webpack = require('webpakc');
+var webpack = require('webpack');
 var path = require('path');
 var context = path.join(__dirname, './src');
 var VendorChunkPlugin = require('webpack-vendor-chunk-plugin');
