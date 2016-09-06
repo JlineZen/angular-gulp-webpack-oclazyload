@@ -11,7 +11,7 @@ module.exports = {
         vendor: ['angular', 'angular-ui-router', 'oclazyload']
     },
     output: {
-        path: path.join(__dirname, './dist'),
+        path: path.join(__dirname, './dist/js'),
         filename: 'bundle.js'
     },
     module: {
