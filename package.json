@@ -16,8 +16,17 @@
   ],
   "author": "bjiang",
   "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "oclazyload": "^1.0.9"
+  },
+  "bugs": {
+    "url": "https://github.com/JlineZen/angular-gulp-webpack-oclazyload/issues"
+  },
+  "homepage": "https://github.com/JlineZen/angular-gulp-webpack-oclazyload#readme",
   "devDependencies": {
-    "css-loader": "^0.24.0",
+    "css-loader": "^0.25.0",
     "del": "^2.2.2",
     "file-loader": "^0.9.0",
     "gulp": "^3.9.1",
@@ -32,14 +41,5 @@
     "webpack": "^1.13.2",
     "webpack-stream": "^3.2.0",
     "webpack-vendor-chunk-plugin": "^1.0.0"
-  },
-  "dependencies": {
-    "angular": "^1.5.8",
-    "angular-ui-router": "^0.3.1",
-    "oclazyload": "^1.0.9"
-  },
-  "bugs": {
-    "url": "https://github.com/JlineZen/angular-gulp-webpack-oclazyload/issues"
-  },
-  "homepage": "https://github.com/JlineZen/angular-gulp-webpack-oclazyload#readme"
+  }
 }
