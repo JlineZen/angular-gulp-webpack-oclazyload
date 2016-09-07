@@ -12,7 +12,7 @@ var swallowError = function(error) {
  * @desc use gulp to build webpack task
  */
 
-gulp.task('webapck', function() {
+gulp.task('webpack', function() {
     return gulp.src('./src/app.js')  // webpack entry file
         .pipe(webpack(require('./webpack.config.js'))) // webpack config
         .on('error', swallowError) // handle error when gulp watch
@@ -35,7 +35,8 @@ gulp.task('minify-css', function() {
  * @desc build watch task
  */
 gulp.task('watch', ['webpack', 'minify-css'], function() {
-    gulp.watch('src/**/*.js', ['webapck']);
+    gulp.watch('src/**/*.js', ['webpack']);
+    gulp.watch('src/**/*.html', ['webpack']);
     gulp.watch('src/**/*.css', ['minify-css']);
 });
 

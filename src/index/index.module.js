@@ -4,3 +4,5 @@ var directive = require('./index.directive');
 
 model.controller('indexCtrl', controller)
     .directive('indexDirective', directive.index);
+
+module.exports = model;
